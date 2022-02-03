@@ -31,11 +31,7 @@
 		<developerConnection>scm:git:git@github.com:someshwar1/jmapper-core.git</developerConnection>
 		<url>git@github.com:someshwar1/jmapper-core.git</url>
 	</scm>
-  <properties>
-  	<sonar.organization>someshwar1</sonar.organization>
-  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  </properties>
-  <developers>
+   <developers>
   	<developer>
   		<id>alessandro.vurro</id>
   		<name>Alessandro Vurro</name>
@@ -75,20 +71,6 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-gpg-plugin</artifactId>
-				<version>1.6</version>
-				<executions>
-					<execution>
-						<id>sign-artifacts</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin> 
-			<plugin>
 			  <groupId>org.apache.maven.plugins</groupId>
 			  <artifactId>maven-compiler-plugin</artifactId>
 			  <version>3.6.1</version>
@@ -113,7 +95,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.10.4</version>
+				<version>3.3.1</version>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
