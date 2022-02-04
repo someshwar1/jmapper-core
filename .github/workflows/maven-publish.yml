@@ -30,6 +30,8 @@ jobs:
               ls
               cd JMapper\ Framework/
               pwd
+              mvn verify -Dgpg.passphrase==${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }} -X
+              ls
               mvn --batch-mode -Dgpg.passphrase=${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }} clean deploy -X
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
