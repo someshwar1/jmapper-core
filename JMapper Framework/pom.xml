@@ -9,7 +9,7 @@
   <artifactId>jmapper-core</artifactId>
   <packaging>jar</packaging>
   <name>JMapper Framework</name>
-  <version>1.6.3</version>
+  <version>1.6.4</version>
   
   <description>
   JMapper Framework is a java bean mapper based on javassist. JMapper exposes 
@@ -151,7 +151,7 @@
 	<dependency>
 	    <groupId>org.reflections</groupId>
 	    <artifactId>reflections</artifactId>
-	    <version>0.9.11</version>
+	    <version>0.10.2</version>
 	</dependency>
   	
   	<dependency>
